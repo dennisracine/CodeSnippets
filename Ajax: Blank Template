@@ -1,0 +1,12 @@
+<cfsetting enablecfoutputonly="no" showdebugoutput="No">
+<!--- Racine-Web Design © 2015 --->
+
+<cfsavecontent variable="rs">
+
+</cfsavecontent>
+
+<cfoutput>
+	$('##someID').html('#jsStringFormat(rs)#');
+</cfoutput>
+
+<!--- Racine-Web Design © 2015 --->
